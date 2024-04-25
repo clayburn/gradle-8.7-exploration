@@ -33,12 +33,12 @@ do
         killall -9 java
 
         # git clean -dfx -e HOME -e cleanup-help.sh
-#        echo "Removing $cache from $homeDir/caches"
-#        rm -rf $homeDir/caches/*/$cache
-#        rm -rf $homeDir/caches/$cache-* # Also remove the transforms for Gradle 8.7
+        echo "Removing $cache from $homeDir/caches"
+        rm -rf $homeDir/caches/*/$cache
+        rm -rf $homeDir/caches/$cache-* # Also remove the transforms for Gradle 8.7
 
         # Always remove the local build cache, since we are testing connection with remote build cache
-#        rm -rf $homeDir/caches/build-cache-1
+        rm -rf $homeDir/caches/build-cache-1
 
         ./gradlew -g $homeDir --$buildCache -Dscan.tag.remote-cache-experiment-$cache-$buildCache --no-configuration-cache -Ddevelocity.deprecation.muteWarnings=true -Dscan.uploadInBackground=false $task
         echo ""
