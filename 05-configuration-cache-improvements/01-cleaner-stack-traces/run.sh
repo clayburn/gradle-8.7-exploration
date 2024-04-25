@@ -10,7 +10,7 @@ echo "------------------------------------------------------------"
 gradle-8.6 printProjectName
 
 echo "------------------------------------------------------------"
-echo "Gradle 8.6 illegal access of project during task execution"
+echo "Gradle 8.7 illegal access of project during task execution"
 echo "------------------------------------------------------------"
 ./gradlew printProjectName
 
