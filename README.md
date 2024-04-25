@@ -11,7 +11,9 @@ Gradle 8.7 release notes: https://docs.gradle.org/8.7/release-notes.html
 
 # Requirements
 
-These samples expect Gradle 8.6 to be installed on your system and found in the system PATH as `gradle-8.6`
+These samples expect:
+- Gradle 8.6 to be installed on your system and found in the system PATH as `gradle-8.6`
+- Gralde 8.7 to be installed on your system and found in the system PATH as `gradle`
 
 # Git Submodules
 
