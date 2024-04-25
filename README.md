@@ -17,7 +17,7 @@ These samples expect:
 
 # Git Submodules
 
-The `02-groovy-build-script-caching` directory contains a submodule. To clone the repository and its submodules, use the following command:
+This repositry contains a submodule. To clone the repository and its submodules, use the following command:
 
 ```shell
 git submodule init 
