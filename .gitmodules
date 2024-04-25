@@ -1,3 +1,3 @@
-[submodule "02-groovy-build-script-caching/armeria"]
-	path = 02-groovy-build-script-caching/armeria
+[submodule "armeria"]
+	path = armeria
 	url = git@github.com:clayburn/armeria.git
