@@ -14,6 +14,7 @@ repositories {
 
 dependencies {
     implementation("org.test:test")
+    implementation(libs.guava)
 }
 
 java {
