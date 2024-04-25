@@ -1,0 +1,7 @@
+[versions]
+commons = "2.16.1"
+guava = "33.1.0-jre"
+
+[libraries]
+commons = { module = "commons-io:commons-io", version.ref = "commons"}
+guava = { module = "com.google.guava:guava", version.ref = "guava"}
